@@ -59,7 +59,7 @@
                     <div class="col-lg-6">
                         <h2>Making A Submission Form</h2>
                         <p class="lead">A simple survey form to collect significant tree data</p>
-                        <p class="mb-2">Now that the base map has been set up, it is time to start collecting significant native tree data. Because this project relies on public input, having a free, simple submission process is uttermost important. We decided to use KoBo Toolbox, which is a free open-source tool for mobile data collection used to collect data in the field using mobile devices such as mobile phones or tablets. Particularly, we used a product called Humanitarian Response – which can be used offline and very easy to use, suitable for people who want to submit tree data in the field where cell phone signals may not present.</p>
+                        <p class="mb-2">Now that the base map has been set up, it is time to start collecting significant native tree data. Because this project relies on public input, having a free, simple submission process is uttermost important. We decided to use KoBo Toolbox, which is a free open-source tool for mobile data collection used to collect data in the field using mobile devices such as mobile phones or tablets. Particularly, we used a product called Humanitarian Response – which can be used offline and very easy to use, suitable for people who want to submit tree data in the field where cell phone signals may not present, and provides unlimited submissions and data storage.</p>
                         <p class="mb-2">The submission form collects the location of the user/tree automatically. Users can also change the location; however, it is advised that they should submit data right in the field. A list of most common native tree species in Ontario is provided for users to choose quickly, including the options for trees that are not on the list. Users will have to submit a photo of the significant tree for identification – that way other users can also visit the tree and recognize it. They are also encouraged to leave a comment explaining why the tree they submitted is significant.</p>
                     </div>
                 </div>
@@ -76,6 +76,23 @@
                     <div class="col-lg-6">
                         <h2>How did Bourne send data to those who need it?</h2>
                         <p class="lead">JSON</p>
+                        <p class="mb-2">In order for the tree data from the survey to be added to the map, it has to be exported in geoJSON format and added to the map. Data from the survey is stored in the Humanitarian Server hosted by UN Office for the Coordination of Humanitarian Affairs (OCHA) and can be accessed through a GET request via KoBo Toolbox API.</p>
+                        <p class="mb-2">The geoJSON is then downloaded and added to the map via JavaScript. We also set a pop-up for each marker, showing the species name, photo and any comment if available – all pulled directly from the geoJSON file.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="py-5 bg-image-full" style="background-image: url('assets/markers.png')">
+            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+            <div style="height: 20rem"></div>
+        </div>
+        <!-- Content section-->
+        <section class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>The Joy Of Automation</h2>
+                        <p class="lead">Finishing touches to keep the map running properly</p>
                         <p class="mb-2"></p>
                         <p class="mb-2"></p>
                     </div>
