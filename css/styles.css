@@ -64,6 +64,17 @@
   --bs-body-bg: #fff;
 }
 
+/* unvisited link */
+a:link {
+  color: rgb(14, 104, 29);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(126, 236, 22);
+}
+
+
 *,
 *::before,
 *::after {
