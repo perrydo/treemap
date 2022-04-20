@@ -11292,3 +11292,15 @@ textarea.form-control-lg {
   background-position: center;
   background-size: cover;
 }
+
+/*custom css for index page by Rebecca*/
+.margin-topbottom {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.green {
+  color: green;
+}
+
+
