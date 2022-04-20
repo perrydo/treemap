@@ -10,6 +10,16 @@
         <link rel="icon" type="image/x-icon" href="assets/treefavicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .margin-topbottom {
+                margin-bottom: 25px;
+                margin-top: 25px;
+            }
+            .green {
+                color: green;
+            }
+        </style>
     </head>
     <body>
     <!-- Responsive navbar-->
@@ -27,11 +37,10 @@
         </div>
     </nav>
     <!-- Header - set the background image for the header in the line below-->
-    <header class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')">
+    <header class="py-5 bg-image-full" style="background-image: url('assets/darkmapbackground.png')">
         <div class="text-center my-5">
-            <img class="img-fluid rounded-circle mb-4" src="https://dummyimage.com/150x150/6c757d/dee2e6.jpg" alt="..." />
+            <img class="img-fluid rounded-circle mb-4" src="assets/treecanopy.jpg" alt="..." />
             <h1 class="text-white fs-3 fw-bolder">Significant Native Trees in Ontario</h1>
-            <!-- <p class="text-white-50 mb-0">Landing Page Template</p> -->
         </div>
     </header>
     <!-- Content section-->
@@ -40,8 +49,67 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <h2>Problem Statement</h2>
-                    <p class="lead">A single, lightweight helper class allows you to add engaging, full width background images to sections of your page.</p>
-                    <p class="mb-0">The universe is almost 14 billion years old, and, wow! Life had no problem starting here on Earth! I think it would be inexcusably egocentric of us to suggest that we're alone in the universe.</p>
+                    <hr>
+                    <p class="lead"><b>Ideal</b></p>
+                    <p class="mb-0">There is a web map showing the significant trees on public land across Ontario for people to visit and for conservation purpose. People can also contribute to the project by adding in examples of significant trees they come across<p>
+                    <p class="lead"><b>Reality</b></p>
+                    <p class="mb-0">There is currently no web map showing the significant trees<p>
+                    <p class="lead"><b>Consequences</b></p>
+                    <p class="mb-0">People are unaware of the significant trees in Ontario, and the trees might be harmed due to this lack of knowledge<p>
+                    <p class="lead"><b>Proposal</b></p>
+                    <p class="mb-0">Create a web map with an easy-to-use submission form for the public to record signficant trees in their area and plot them on the map<p> 
+                    <p class="lead"><b>Approval Status</b></p>
+                    <p class="mb-0 green">Approved.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Image element - set the background image for the header in the line below-->
+    <div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')">
+        <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+        <div style="height: 20rem"></div>
+    </div>
+    <!-- Content section-->
+    <section class="py-5">
+        <div class="container my-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h2>Technology Used</h2>
+                    <hr>
+                        <div class="row text-center padding">
+                          <h3 class="margin-topbottom"> Used to create the project: </h3>
+                          <div class="col">
+                            <i class="fa fa-leaf"></i>
+                            <h4>LEAFLET</h4>
+                            <p> Used to build the online map</p>
+                          </div>
+                          <div class="col">
+                            <i class="fa fa-code"></i>
+                            <h4>KOBOTOOLBOX</h4>
+                            <p> Used to build the submission form</p>
+                          </div>
+                          <div class="col">
+                            <i class="fa fa-github"></i>
+                            <h4>GITHUB</h4>
+                            <p> Used to host the project files</p>
+                        </div>
+                        
+                        <div class="row text-center padding">
+                          <h3 class="margin-topbottom"> Used to create the website: </h3>
+                          <div class="col">
+                            <i class="fa fa-html5"></i>
+                            <h4>HTML5</h4>
+                          </div>
+                          <div class="col">
+                            <i class="fa fa-css3"></i>
+                            <h4>CSS3</h4>
+                          </div>
+                          <div class="col">
+                            <i class="fa fa-bold"></i>
+                            <h4>BOOTSTRAP</h4>
+                          </div>
+                        </div>
+                        
                 </div>
             </div>
         </div>
@@ -59,6 +127,8 @@
                     <h2>Objectives</h2>
                     <p class="lead">Now What?</p>
                     <p class="mb-0"></p>
+
+                    
                 </div>
             </div>
         </div>
@@ -81,13 +151,49 @@
         <div style="height: 20rem"></div>
     </div>
     <!-- Content section-->
-    <section class="py-5">
-        <div class="container my-5">
+    <section class="py-5"><!-- py-5 adds padding to top and bottom-->
+        <div class="container my-5"><!-- my-5 adds padding to top and bottom-->
             <div class="row justify-content-center">
-                <div class="col-lg-6">
+                <div>
                     <h2>Meet the Team</h2>
-                    <p class="lead">The background images used in this template are sourced from Unsplash and are open source and free to use.</p>
-                    <p class="mb-0">I can't tell you how many people say they were turned off from science because of a science teacher that completely sucked out all the inspiration and enthusiasm they had for the course.</p>
+                    <hr>
+                    <div class="container-fluid">
+                        <div class="row">
+                        <div class="col-3">
+                            <div class="card">
+                            <img alt= "perry" class="card-img-top" src= "assets/perryplatypus.png">
+                            <div class="card-body">
+                                <h3 class="card-title text-center"> Perry Do</h3>
+                                <h4 class="card-text text-center"> GIS Student </h4>
+                                <p class="card-text text-center">Perry is currently studying GIS (Applications Specialist) at Fleming College...</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                            <img class="card-img-top" alt="rebecca" src= "assets/catface.jpeg">
+                            <div class="card-body">
+                                <h3 class="card-title text-center"> Rebecca Wilkins </h3>
+                                <h4 class="card-text text-center"> GIS Student </h4>
+                                <p class="card-text text-center"> Rebecca is currently studying GIS (Applications Specialist) at Fleming College. 
+                                She recently previously studied Biology and Environmental Sciences at the University of Ottawa. </p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                            <img class="card-img-top" alt= "Igraine" src="assets/westie.jpeg" >
+                            <div class="card-body">
+                                <h3 class="card-text text-center"> Igraine Strelley</h3>
+                                <h4 class="card-text text-center"> GIS Student </h4>
+                                <p class="card-text text-center"> Igraine is currently studying GIS (Applications Specialist) at Fleming College... </p>
+                            </div>
+                            </div>
+                        </div>
+                        
+                        </div>
+                        </div> 
+                        </div>    
                 </div>
             </div>
         </div>
