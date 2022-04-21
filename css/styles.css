@@ -11329,8 +11329,16 @@ textarea.form-control-lg {
   }
 }
 
-.imgheight {
-  height: 250px;
+.imgformat {
+    height: 250px;
+    max-width: 300px;
 }
-
+.imgcentre {
+    display: flex;
+    justify-content: center;
+}
+.toptext {
+    color: #ffffff;
+    text-shadow: 0 0 5px #000000; 
+}
 /*end Rebecca content*/
